@@ -22,22 +22,22 @@
           <legend class="italic mega not-bold push-1-2">Personal details</legend>
           <section class="grid max-length">
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit xs-1 s-1 m-1 l-1-2">
               <label class="kilo" for="name">Name</label>
               <input class="push" id="name" name="name" required>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit xs-1 s-1 m-1 l-1-2">
               <label class="kilo" for="age">Age</label>
               <input class="push" id="age" type="number" name="number">
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit xs-1 s-1 m-1 l-1-2">
               <label class="kilo" for="email">Your Email</label>
               <input class="push" id="email" type="email" name="email" required>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit xs-1 s-1 m-1 l-1-2">
               <label class="kilo" for="fitness">Physical fitness</label>
               <select class="push" id="fitness" name="_subject">
                 <option>Super-human</option>
@@ -47,7 +47,7 @@
               </select>
             </div>
 
-            <div class="unit xs-1 s-1 m-1-2 l-1 push-0">
+            <div class="unit xs-1 s-1 m-1 l-1 push-0">
               <label class="kilo" for="address">Address</label>
               <textarea class="push" id="address" name="message" required></textarea>
             </div>
@@ -59,10 +59,12 @@
           <div class="grid">
             <label class="unit kilo" for="why">Why do you want to go to Mars?</label>
             <textarea class="unit push" id="why" name="message" required></textarea>
-            <button class="unit btn mega" type="submit">Register for the trip!</button>
-            <input class="unit" type="hidden" name="_subject" value="Request to join the mission">
           </div>
         </fieldset>
+        <div class="text-center">
+          <button class="btn kilo" type="submit">Register for the trip!</button>
+          <input type="hidden" name="_subject" value="Request to join the mission">
+        </div>
       </form>
     </div>
   </section>
